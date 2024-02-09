@@ -1,3 +1,17 @@
+## Steps to reproduce
+
+```bash
+pnpm install
+pnpm dev
+```
+
+1. visit `localhost:1999`
+2. click the button: "Send Test data to server"
+3. See data coming in and get displayed in the browsers
+4. Refresh the page (data is loaded upon onConnect)
+5. click the button: "Reset Session …" - in the server logs you can see the entry is empty
+6. Refresh the page (data is loaded upon onConnect): but it should be deleted?!
+
 ## 🎈 backend
 
 Welcome to the party, pal!
