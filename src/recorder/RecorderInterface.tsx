@@ -80,6 +80,7 @@ const RecorderInterface: React.FC<Props> = () => {
             partykitSocket.send(
               JSON.stringify({
                 type: "reset-session",
+                sessionId,
               })
             );
           } else {
